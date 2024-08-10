@@ -1,0 +1,132 @@
+
+/* Basic resets */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Weather card styling */
+  .weather-card, .favorite-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-card h2, .favorite-card h3 {
+    margin-top: 0;
+  }
+  
+  .weather-card p, .favorite-card p {
+    margin: 5px 0;
+  }
+  
+  .weather-card button, .favorite-card button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-card button:hover, .favorite-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Favorites section styling */
+  .favorites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  /* Geolocation button styling */
+  .button-geolocation {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-geolocation:hover {
+    background-color: #218838;
+  }
+  
+
+  .weather-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    justify-content: center;
+  }
+  
+  .weather-card {
+    background: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 200px; 
+    text-align: center; 
+  }
+  
